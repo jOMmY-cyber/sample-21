@@ -1,0 +1,26 @@
+<project>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>friend-company</groupId>
+    <artifactId>project-21</artifactId>
+    <version>0.8</version>
+    <build>
+        <sourceDirectory>java</sourceDirectory>
+        <testSourceDirectory>test</testSourceDirectory>
+        <resources>
+            <resource>
+                <directory>data</directory>
+            </resource>
+        </resources>
+    </build>
+    <properties>
+        <maven.compiler.source>18</maven.compiler.source>
+        <maven.compiler.target>18</maven.compiler.target>
+    </properties>
+    <dependencies>
+        <dependency>
+            <groupId>.org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+            <version>RELEASE</version>
+        </dependency>
+    </dependencies>
+</project>
